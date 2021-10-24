@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title> mu sigma login form</title>
+        <style>
+            body{
+                background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3L4FwkMN-MEwysM3EdbM-4QgE5l5KyKk3w&usqp=CAU');
+                background-size: cover;
+                background-position-y: left;
+                margin:20px;
+                padding:40px;
+                border:5px double rgb(2, 228, 70);
+                border-radius: 30px;
+            }
+            .image{
+                border:2px solid brown;
+                padding:10px;
+                border-radius: 20px;
+                margin-left:610px;
+            }
+            .box{
+                border:2px solid rgb(110, 110, 110,0.3);
+                width:400px;
+                height:300px;
+                margin-left:500px;
+                border-radius: 20px;
+               
+            }
+            .input_border1{
+                border:2px solid rgb(87, 87, 82,0.3);
+                margin:20px;
+
+            }
+            .input_border1:hover{
+                border:2px solid red;
+                margin:20px;
+
+            }
+            .input_border2{
+                border:2px solid rgb(87, 87, 82,0.3);
+                margin:20px;
+
+            }
+            .input_border2:hover{
+                border:2px solid red;
+                margin:20px;
+
+            }
+            input[type='email'],input[type='number']{
+                border:none;
+                margin-left:10px;
+                line-height:30px;
+                background: transparent;
+                color:white;
+                font-size: 20px;
+                border-radius: 30px;
+                
+              
+               
+            }
+            input[type='email']:focus ,input[type='number']:focus{
+                border:none;
+                outline: none;
+               
+            }
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance:none;
+            }
+
+
+            #submit_button{
+                margin-left:90px;
+               
+                width:200px;
+                height:40px;
+                color:white;
+                background-color: rgb(27, 12, 94);
+                border-color:rgb(35, 7, 102);
+                font-size: 18px;
+            }
+            #submit_button:hover{
+                border-color:red;
+            }
+            h3{
+                margin:20px;
+            }
+            .head{
+                line-height:30px;
+                margin-left:10px;           }
+        </style>
+    </head>
+    <body>
+        <div class="logo_page"> 
+            <img src="https://www.mu-sigma.com/wp-content/uploads/2019/08/MuSigma-logo-3.png" alt="mu sigma logo" height="100px" width="100px" class="image">
+
+        </div>
+        <br>
+        <div class="box">
+            <h3> Login </h3>
+            <form action="" method="post">
+                <div class="input_border1">
+                    <div class="head">Email</div> 
+                    <input type="email" placeholder="Enter your email" size="43px" height="30px">
+
+                </div>
+                <div class="input_border2">
+                    <div class="head">Passkey</div> 
+                    <input type="number" placeholder="Enter your Passkey" size="430px" height="30px">
+
+                </div>
+                <button id="submit_button" onclick=""> Start Assessment</button>
+
+                 
+                
+            </form>
+        </div>
+        <p id="footer-algin" style="margin-left:570px; font-size:20px;">&copy;24-10-2021 12:56 (Ragunath N)</p>
+
+           
+    </body>
+</html>
